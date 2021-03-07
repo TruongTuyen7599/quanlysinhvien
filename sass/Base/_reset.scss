@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+}
+.header__logo {
+    width: 91px;
+    height: 40px;
+}
+
+@media (max-width: 1445.98px) {
+    .class__header {
+        padding: 0 0 !important;
+    }
+    .containerTarget {
+        padding: 100px 0 0 0 !important;
+    }
+    .header__menu {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600.02px) {
+    .ytp-cued-thumbnail-overlay-image {
+        height: 100px;
+    }
+}
